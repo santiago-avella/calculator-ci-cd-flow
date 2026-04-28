@@ -1,0 +1,31 @@
+{
+  "name": "calculadora-taller",
+  "version": "1.0.0",
+  "description": "Calculadora básica en Node.js — Taller DevSecOps",
+  "main": "src/index.js",
+  "bin": {
+    "calculadora": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
+  },
+  "keywords": [
+    "calculadora",
+    "devsecops",
+    "taller"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "jest": "^30.3.0"
+  }
+}
