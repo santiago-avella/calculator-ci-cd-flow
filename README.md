@@ -92,5 +92,5 @@ npm run lint         # análisis estático sin errores
 npm test             # corre tests y muestra cobertura
 npm run test:ci      # tests en modo CI (sin watch, con reporte)
 docker build -t calculadora .   # construye imagen
-docker run calculadora add 10 5 # ejecuta en contenedor
+docker run calculadora add 10 5 # ejecuta en contenedor1
 ```
